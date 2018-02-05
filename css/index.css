@@ -1,0 +1,92 @@
+body {
+  background: #efefef;
+}
+
+.navbar-fixed{
+  height: 0;
+}
+#response-form .form-icon {
+  text-align: right;
+}
+#response-form {
+}
+#main_header {
+  box-shadow: 0 1px 3px 0 #b9b9b9;
+  background:#f9f9f9;
+  height: 100px;
+}
+#site_navigation{
+  /*background: #254b87;*/
+  margin-bottom: 5px;
+}
+
+.nav_page_links.active {
+  border-bottom: 2px solid #f9f9f9;
+}
+.nav_page_links{
+  min-width: 150px;
+  text-align: center;
+  border-bottom: 2px hidden #f9f9f9;
+  transition: border-bottom-style .3s;
+  letter-spacing: 0.5px;
+}
+
+
+
+.bold-text {
+  font-weight: bold;
+}
+
+/* Main Content*/
+
+#main-content {
+  height: 2000px;
+}
+#main-content.container {
+  padding: 10px;
+}
+#main-content .row.header-image {
+}
+.dropdown-content a {
+  font-weight: normal !important;
+}
+
+/* subsection */
+.subsection{
+  width: 100%;
+  padding-top: 70px;
+}
+
+
+.subsec-header .card-panel.left{
+  height: 93px;
+}
+.subsec-header .card-panel.left span{
+  float: left;
+  padding-left: 20px;
+}
+.subsec-header .card-panel.right{
+  height: 93px;
+}
+.subsec-header .card-panel.right span{
+  float: right;
+  padding-right: 20px;
+}
+
+
+.subsec-text.left{
+  text-align: justify;
+}
+.subsec-text.right{
+  text-align: justify;
+}
+.subsection .header-card {
+  border-radius: 10px !important;
+  padding: 10px;
+  font-size: 3.25rem;
+  width: 100%;
+}
+.subsec-text{
+  padding: 0 5em;
+  font-size: 17px;
+}

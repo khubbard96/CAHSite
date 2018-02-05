@@ -1,13 +1,190 @@
 <html>
   <head>
-    <title>GIT</title>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Libre+Franklin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://use.fontawesome.com/95af79cca2.js"></script>
+    <title>Countryside Animal Hospital</title>
+
   </head>
   <body>
-    <p>
-      Might work this time...
-    </p>
-    <p>
-      Edit made on PROJECT_BLUE
-    </p>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="/google_form_submit.js"></script>
+    <script type="text/javascript" src="/index.js"></script>
+    <!---<div class="navbar-fixed">
+      <nav id="site_navigation" class="blue darken-4">
+        <div class="nav-wrapper">
+          <a class="brand-logo" style="padding: 0 15px;">Countryside Animal Hospital</a>
+          <ul class="right hide-on-med-and-down">
+            <li class="active nav_page_links tab">
+              <a class="bold-text dropdown-button" data-activates="home-dropdown">home</a>
+              <ul id='home-dropdown' class='dropdown-content'>
+                <li><a data-link='welcome'>welcome</a></li>
+                <li><a data-link='location'>location</a></li>
+                <li><a data-link='testimonials'>testimonials</a></li>
+              </ul>
+            </li>
+            <li class="nav_page_links tab">
+              <a class="dropdown-button" data-activates="gallery-dropdown">gallery</a>
+              <ul id='gallery-dropdown' class='dropdown-content'>
+                <li><a data-link='services'>services</a></li>
+                <li><a data-link='staff'>staff</a></li>
+                <li><a data-link='pets'>pets</a></li>
+              </ul>
+            </li>
+            <li class="nav_page_links tab"><a>staff</a></li>
+            <li class="nav_page_links tab"><a>contact</a></li>
+            <li class="nav_page_links tab">
+              <a class="dropdown-button" data-activates="links-dropdown">links</a>
+              <ul id='links-dropdown' class='dropdown-content'>
+                <li><a data-link='emergency'>emergency</a></li>
+                <li><a data-link='contact'>contact</a></li>
+                <li><a data-link='connect'>connect</a></li>
+              </ul>
+            </li>
+            <li class="nav_page_links tab"><a>forms</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>-->
+    <div id="main-content" class="container" style="width: 80%; background-color:white;">
+      <div id="welcome" class="subsection">
+        <div class="row header-image">
+          <meta itemprop="license" content="https://creativecommons.org/licenses/publicdomain/">
+          <img id="header_image_boi" src="https://cdn.pixabay.com/photo/2016/02/19/15/46/dog-1210559_960_720.jpg" />
+        </div>
+        <div class="row subsec-header">
+          <div class="col s12">
+            <div class="card-panel blue-grey lighten-4 header-card left">
+              <span>Welcome</span>
+            </div>
+          </div>
+        </div>
+        <div class="row subsec-content">
+          <div class="col s9">
+            <div class="subsec-text left">
+              <p>
+                Thank you for choosing Countryside Animal Hospital. We are located at Moores Crossroads just a mile north of the American Village. Countryside Animal Hospital is a modern full-service small animal facility specializing in medicine and surgery for companion animals.
+              </p>
+              <p>
+                We have been at the same location since 1980 providing a unique combination of Modern Medicine and Old-Fashioned Care and Concern. In addition, we offer boarding and day care, cold laser therapy, behavioral counseling, dietary management, and dental services.
+              </p>
+              <p>
+                Our task is to provide excellent quality, compassionate care, and life-long health for your pet. We look forward to welcoming you and your four legged friends to our animal family. We have an exceptional staff of talented doctors and support technicians with particular interests in all aspects of animal care. Please come and tour our facility anytime. We look forward to serving you and your pets needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="location" class="subsection">
+        <div class="row subsec-header">
+          <div class="col s12">
+            <div class="card-panel blue-grey lighten-4 header-card right">
+              <span>Location</span>
+            </div>
+          </div>
+        </div>
+        <div class="row subsec-content">
+          <div class="col s3">
+            <img src="https://docs.google.com/uc?id=1kwfBBlSSGROEM5HBVfj0z9xUQ2Cmdla" />
+          </div>
+          <div class="col s9">
+            <div class="subsec-text right">
+              <p>
+                Countryside Animal Hospital is located just a mile north of the American Village, near the small town of Montevallo, Alabama. We invite you to come by and pay us a visit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!---<div class="row" id="connect">
+        <div class="col s4" id="emergency">
+          <div class="card blue darken-4">
+            <div class="card-content white-text">
+              <span class="card-title">Emergency</span>
+              <p>Please contact one of our prefered emergency services after hours
+              or on holidays:</p>
+            </div>
+            <div class="card-action actions-buttons">
+              <a class="waves-effect waves-light btn">AL Vet Specialists</a>
+              <a class="waves-effect waves-light btn" style="font-size: 14px;">Emergency Animal Services</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4" id="phone">
+          <div class="card blue darken-4">
+            <div class="card-content white-text">
+              <span class="card-title">Contact</span>
+              <p>Call or shoot us an email. We'll be glad to schedule an appointment
+              or answer any questions you've got.</p>
+            </div>
+            <div class="card-action actions-buttons">
+              <a class="waves-effect waves-light btn">(205) 665-2226</a>
+              <a class="waves-effect waves-light btn" style="font-size: 12px;">countrysidepetvets@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4" id="soc-med">
+          <div class="card blue darken-4">
+            <div class="card-content white-text">
+              <span class="card-title">Connect</span>
+              <p>Like us on Facebook and follow us on Instagram to stay up to date with all things Countryside.</p>
+            </div>
+            <div class="card-action actions-buttons">
+              <a class="waves-effect waves-light btn">Visit Facebook</a>
+              <a class="waves-effect waves-light btn">Visit Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>--->
+
+    </div>
+
+    <form class="col s12"
+          id="response-form"
+          method="POST"
+          action="https://docs.google.com/forms/d/1bF8RFmkOLBC1-b-sGvHwzFQkmYZlLNK1_JsQsrtnBLk"
+          onsubmit="return window.submitGoogleForm(this);"
+          style="display: none; padding:30px">
+
+      <div class="row">
+        <div class="col s1 form-icon">
+          <i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="col s3">
+          <input name="entry.510716844" id="input_area" type="text" class="browser-default" style="width: 100%;" placeholder="Name"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s1 form-icon">
+          <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="col s3">
+          <input name="entry.510716844" id="input_area" type="text" class="browser-default" style="width: 100%;" placeholder="Phone"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s1 form-icon">
+          <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="col s3">
+          <input name="entry.510716844" id="input_area" type="text" class="browser-default" style="width: 100%;" placeholder="Email"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s1">
+
+        </div>
+        <div class="col s3">
+          <button type=submit style="width: 100%;">Submit</button>
+        </div>
+      </div>
+    </form>
+
   </body>
 </html>
