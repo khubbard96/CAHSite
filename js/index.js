@@ -1,6 +1,8 @@
 $(document).ready(function() {
   setupPage();
 
+
+  initTabletop();
   /*
     TODO:
       ::IDEA::
@@ -32,7 +34,7 @@ function setupPage() {
 };
 
 var animation = {
-  /*headerTitleMinimize: function() {
+  headerTitleMinimize: function() {
     Materialize.scrollFire([
       {selector: "#site_navigation", offset: window.innerHeight - 200, callback: function() {
           $("#site_header #cah_title_area .main-title").toggleClass("minimized");
@@ -40,7 +42,7 @@ var animation = {
         }
       }
     ]);
-  }*/
+  }
 };
 
 
@@ -48,3 +50,14 @@ var animation = {
 
 //https://medium.com/@jaejohns/how-to-use-google-sheets-as-your-website-database-b0f2f13d0396
 //https://stackoverflow.com/questions/13699589/display-the-content-of-a-google-sheet-cell-in-a-web-page
+
+
+function initTabletop() {
+  Tabletop.init({
+    key: "https://docs.google.com/spreadsheets/d/1lEYCtz1ChgIbmlHkr_8pVc0LTqs1QIcOWNfXRHPLE0w/edit?usp=sharing",
+    callback: function(data, tabletop) {
+      console.log(data)
+    },
+    simpleSheet: true
+  });
+}
