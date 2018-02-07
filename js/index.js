@@ -54,6 +54,7 @@ var animation = {
 
 function initTabletop() {
   Tabletop.init({
+    //current key is for sheet entitled "Employee Info"
     key: "https://docs.google.com/spreadsheets/d/1lEYCtz1ChgIbmlHkr_8pVc0LTqs1QIcOWNfXRHPLE0w/edit?usp=sharing",
     callback: function(data, tabletop) {
       console.log(data)
