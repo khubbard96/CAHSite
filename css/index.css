@@ -39,7 +39,7 @@ body {
 
 /*messing with parallax stuff*/
 .parallax-container {
-  height: 300px;
+  height: 250px;
 }
 .gradient-across {
   position: absolute;
@@ -63,13 +63,31 @@ body {
 #cah_title_area .sub-title {
   font-size: 30px;
 }
-#site_content.container {
-  width: 85% !important;
-  max-width: unset;
+
+#site_navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-#site_navigation .container {
-  width: 90% !important;
-  max-width: unset;
+#site_navigation span {
+  padding: 10px 40px;
+  font-size: 20px;
+  font-weight: normal;
+  cursor: pointer;
+  margin: 0 5px;
+  border-radius: 5px;
+  transition: background-color .5s;
+  min-width: 175px;
+  text-align: center;
+}
+#site_navigation span.nav_active {
+  padding: 10px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+#site_content {
+  height: 2000px;
 }
 
 
