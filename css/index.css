@@ -15,10 +15,10 @@ body {
   background:#f9f9f9;
   height: 100px;
 }
-#site_navigation{
-  /*background: #254b87;*/
+/*#site_navigation{
+  background: #254b87;
   margin-bottom: 5px;
-}
+}*/
 
 .nav_page_links.active {
   border-bottom: 2px solid #f9f9f9;
@@ -37,17 +37,42 @@ body {
   font-weight: bold;
 }
 
+/*messing with parallax stuff*/
 .parallax-container {
-  height: 500px;
+  height: 300px;
 }
 .gradient-across {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(to left, rgba(255,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1));
+  background: linear-gradient(to left, rgba(255,0,0,0), rgba(13,71,161,1), rgba(13,71,161,1));
   height: 100%;
   width: 70%;
 }
+#cah_title_area {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-family: "Lato";
+}
+#cah_title_area .main-title {
+  font-size: 100px;
+}
+#cah_title_area .sub-title {
+  font-size: 30px;
+}
+#site_content.container {
+  width: 85% !important;
+  max-width: unset;
+}
+#site_navigation .container {
+  width: 90% !important;
+  max-width: unset;
+}
+
+
 
 /* Main Content*/
 
