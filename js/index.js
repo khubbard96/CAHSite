@@ -28,6 +28,8 @@ $(document).ready(function() {
 
     });
   });
+
+  $(".parallax").parallax();
 });
 
 function setupPage() {
