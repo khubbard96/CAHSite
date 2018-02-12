@@ -18,6 +18,7 @@ $(document).ready(function() {
       -font stuff
       -navbar buttons responsive width
       -work on header/title, site content container responsiveness
+        -will probably want to take out header animations 
   */
 });
 
