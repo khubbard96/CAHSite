@@ -127,6 +127,9 @@ body {
   margin: 2rem;
   font-size: 20px;
 }
+#site_content .site-page .page-section p {
+  margin: 40px 0;
+}
 #site_content .site-page .page-section-wide {
   padding: 10px 0;
   margin: 2rem 0;
