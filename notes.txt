@@ -1,0 +1,19 @@
+Site organization
+  -Home
+    *intro message
+    *hours of operation
+    *emergency reference (brief)
+    
+  -Gallery
+    *staff
+    *clinic images/"virtual tour"
+
+  -Contact
+    *map
+    *phone/email/address
+    *comment submission
+
+  -Resources
+    *extended emergency reference
+    *forms
+    *helpful websites

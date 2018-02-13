@@ -21,14 +21,9 @@ $(document).ready(function() {
       ::FIX::
       -font stuff
       -navbar buttons responsive width
-<<<<<<< HEAD
-      -work on header/title, site content container responsiveness for mobile
-        -will probably want to take out header animations
-=======
       -work on header/title, site content container responsiveness
         -will probably want to take out header animations
         -need to take out materialize from navbar, does not respond there well
->>>>>>> 1699801c4bd29d072d13782b02546bd9a38891d2
   */
 });
 
