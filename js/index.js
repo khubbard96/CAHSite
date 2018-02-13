@@ -18,7 +18,7 @@ $(document).ready(function() {
       -font stuff
       -navbar buttons responsive width
       -work on header/title, site content container responsiveness
-        -will probably want to take out header animations 
+        -will probably want to take out header animations
   */
 });
 
@@ -90,7 +90,8 @@ var animation = {
 };
 
 var addElements = function () {
-  $("#site_content .site-page .section-title").append('<div style="background: #d0d0d0;flex: 1;margin: auto 40px;height: 12px;border-radius: 6px;"></div>');
+  //hide on mobile
+  $("#site_content .site-page .section-title").append('<div class="title-line"></div>');
 }
 
 
