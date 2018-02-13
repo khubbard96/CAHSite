@@ -21,8 +21,14 @@ $(document).ready(function() {
       ::FIX::
       -font stuff
       -navbar buttons responsive width
+<<<<<<< HEAD
       -work on header/title, site content container responsiveness for mobile
         -will probably want to take out header animations
+=======
+      -work on header/title, site content container responsiveness
+        -will probably want to take out header animations
+        -need to take out materialize from navbar, does not respond there well
+>>>>>>> 1699801c4bd29d072d13782b02546bd9a38891d2
   */
 });
 
@@ -94,7 +100,8 @@ var animation = {
 };
 
 var addElements = function () {
-  $("#site_content .site-page .section-title").append('<div style="background: #d0d0d0;flex: 1;margin: auto 40px;height: 12px;border-radius: 6px;"></div>');
+  //hide on mobile
+  $("#site_content .site-page .section-title").append('<div class="title-line"></div>');
 }
 
 

@@ -120,6 +120,16 @@ body {
     display: flex;
     align-items: stretch;
 }
+#site_content .site-page .section-title span {
+  width: 70%;
+}
+#site_content .site-page .section-title .title-line {
+  background: #d0d0d0;
+  height: 10px;
+  border-radius: 5px;
+  width: 50%;
+  margin: auto 80px;
+}
 #site_content .site-page .page-section {
 
   border-radius: 10px;
