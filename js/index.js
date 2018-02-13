@@ -19,6 +19,7 @@ $(document).ready(function() {
       -navbar buttons responsive width
       -work on header/title, site content container responsiveness
         -will probably want to take out header animations
+        -need to take out materialize from navbar, does not respond there well
   */
 });
 
