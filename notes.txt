@@ -3,7 +3,7 @@ Site organization
     *intro message
     *hours of operation
     *emergency reference (brief)
-    
+
   -Gallery
     *staff
     *clinic images/"virtual tour"
@@ -17,3 +17,8 @@ Site organization
     *extended emergency reference
     *forms
     *helpful websites
+
+
+**unlocated things**
+-fb post/image feed
+-customer testimonials
