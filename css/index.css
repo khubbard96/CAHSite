@@ -29,6 +29,8 @@
 /*home page content*/
 .content.home .home-title-cont {
   font-family: Oswald;
+  width: 1150px;
+  margin: 0 auto;
 }
 .content.home .home-title {
   text-transform: uppercase;
@@ -50,7 +52,7 @@
 .content.home .home-basicinfo > div {
   padding: 0 40px;
   font-size: 16pt;
-  min-width: 20%;
+  width: 33.33333%;
 }
 .content.home .home-basicinfo i {
   padding-right: 30px;
