@@ -32,12 +32,42 @@
   top: 450px;
   right: 300px;
   background: #0288d1;
+  min-width: 325px;
 }
 .floating-quick-bar.pinned {
   position: fixed;
   top: 75px;
 }
-
+.floating-quick-bar .qb-title {
+  font-family: Merriweather;
+  color: white;
+  font-size: 21pt;
+  padding: 10px;
+}
+.floating-quick-bar .qb-header {
+  font-family: Oswald;
+  color: black;
+  font-size: 15pt;
+  padding: 10px;
+}
+.floating-quick-bar .qb-content {
+  font-family: Lato;
+  color: #757575;
+  font-size: 13pt;
+  padding: 0 15px;
+}
+.floating-quick-bar .qb-content#qb_hours{
+  display: flex;
+  flex-direction: row;
+}
+.floating-quick-bar .qb-content #qb_hours_left {
+  text-align: left;
+  width: 50%;
+}
+.floating-quick-bar .qb-content #qb_hours_right {
+  text-align: right;
+  width: 50%;
+}
 
 /*home page content*/
 .content.home .home-title-cont {
