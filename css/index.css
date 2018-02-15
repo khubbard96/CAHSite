@@ -23,6 +23,19 @@
   width: 80%;
   margin: 30px auto;
   height: 1500px;
+  position: relative;
+}
+
+/*quick nav/info panel*/
+.floating-quick-bar {
+  position: absolute;
+  top: 450px;
+  right: 300px;
+  background: #0288d1;
+}
+.floating-quick-bar.pinned {
+  position: fixed;
+  top: 75px;
 }
 
 
@@ -60,4 +73,68 @@
 }
 .content.home .home-basicinfo > div:not(:last-of-type) {
   border-right: 1px solid #d0d0d0;
+}
+.content.home .home-section {
+  margin: 175px 0;
+}
+.content.home .home-section .section-title {
+  font-family: Merriweather;
+  font-size: 40pt;
+  color: #0288d1;
+  margin-left: 30px;
+}
+.content.home .home-section .content-cont {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 150px;
+  align-items: center;
+}
+.content.home .home-section .content-col {
+  width: 50%;
+  margin: 0 40px;
+}
+.content.home .home-section .content-header {
+  color: black;
+  font-family: Oswald;
+  text-align: center;
+  font-size: 18pt;
+  margin: 20px 0;
+}
+.content.home .home-section .sub-content {
+  color: #757575;
+  font-family: Lato;
+  text-align: justify;
+  font-size: 14pt;
+
+}
+.content.home .home-section .about-mainimg {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.content.home .home-section .about-mainimg img{
+  height: 350px;
+}
+.content.home .home-section .fb-testimonials-container {
+  background: #cfd8dc;
+  border-radius: 7px;
+  padding: 10px 20px;
+  font-family: Lato;
+}
+.content.home .home-section .fb-testimonials-container .card-panel {
+  display: flex;
+  flex-direction: row;
+}
+.content.home .home-section .fb-testimonials-container i {
+  color: white;
+  font-size: 50;
+}
+.content.home .home-section .testimonial-content {
+  text-align: left;
+  margin: 0 30px;
+}
+.content.home .home-section .testimonial-signature {
+  text-align: right;
+  margin-top: 10px;
+  font-style: italic;
 }
