@@ -30,13 +30,13 @@
 .floating-quick-bar {
   position: absolute;
   top: 450px;
-  right: 300px;
+  right: 20px;
   background: #0288d1;
-  min-width: 325px;
+  min-width: 300px;
 }
 .floating-quick-bar.pinned {
   position: fixed;
-  top: 75px;
+  top: 150px;
 }
 .floating-quick-bar .qb-title {
   font-family: Merriweather;
@@ -49,6 +49,13 @@
   color: black;
   font-size: 15pt;
   padding: 10px;
+  padding-left: 0;
+}
+.floating-quick-bar .qb-header i{
+  float: left;
+  font-size: 18pt;
+  padding-right: 15px;
+  padding-top: 3px;
 }
 .floating-quick-bar .qb-content {
   font-family: Lato;
@@ -59,6 +66,7 @@
 .floating-quick-bar .qb-content#qb_hours{
   display: flex;
   flex-direction: row;
+  color: #fafafa;
 }
 .floating-quick-bar .qb-content #qb_hours_left {
   text-align: left;

@@ -8,6 +8,16 @@ $(document).ready(function() {
     $(this).parent().addClass("active")
   });
 
+  $(this).on("scroll",function() {
+    if($(this).scrollTop() >= 300) {
+      console.log($(this).scrollTop())
+      $(this).find(".floating-quick-bar").addClass("pinned");
+    }
+    else {
+      $(this).find(".floating-quick-bar").removeClass("pinned");
+    }
+  })
+
 
 });
 
