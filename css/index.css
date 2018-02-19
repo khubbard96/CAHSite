@@ -20,7 +20,6 @@
 
 /*generic content*/
 .content-column {
-  width: 80%;
   margin: 30px auto;
   height: 1500px;
   position: relative;
@@ -81,7 +80,7 @@
 .content.home .home-title-cont {
   font-family: Oswald;
   width: 1150px;
-  margin: 0 auto;
+  margin: 0 auto 75px auto;
 }
 .content.home .home-title {
   text-transform: uppercase;
@@ -112,66 +111,79 @@
 .content.home .home-basicinfo > div:not(:last-of-type) {
   border-right: 1px solid #d0d0d0;
 }
-.content.home .home-section {
-  margin: 175px 0;
+.content .section {
 }
-.content.home .home-section .section-title {
+.content .page-section:nth-of-type(even){
+  background: #f3f3f3;
+}
+.content.home .page-section .section-title {
   font-family: Merriweather;
   font-size: 40pt;
   color: #0288d1;
   margin-left: 30px;
+  padding-top: 25px;
 }
-.content.home .home-section .content-cont {
-  display: flex;
-  flex-direction: row;
-  margin: 20px 150px;
-  align-items: center;
+.content .page-section .section-content-main {
+  margin-right: 4rem;
+  margin-left: 4rem;
 }
-.content.home .home-section .content-col {
-  width: 50%;
-  margin: 0 40px;
+.content .page-section .section-content-main .sec-content {
+  padding: 0 5rem !important;
 }
-.content.home .home-section .content-header {
+.content .page-section .section-content-main .content-header {
   color: black;
   font-family: Oswald;
   text-align: center;
-  font-size: 18pt;
+  font-size: 22pt;
   margin: 20px 0;
 }
-.content.home .home-section .sub-content {
+.content .page-section .section-content-main .sub-content {
   color: #757575;
   font-family: Lato;
   text-align: justify;
-  font-size: 14pt;
+  font-size: 16pt;
+  padding: 35px 0;
+}
+.content.home #services_cards {
+  width: 70rem;
+  text-align: center;
+}
+.content.home #services_cards .card {
+  font-family: Lato;
+}
+.content.home #services_cards .card a{
+  margin: 0;
+  color: #0288d1;
+}
+.content.home #services_cards.row .col {
+  padding: 0 3rem;
+}
+.content.home #services_cards .card .card-title {
+  font-size: 26px;
+}
 
-}
-.content.home .home-section .about-mainimg {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-.content.home .home-section .about-mainimg img{
-  height: 350px;
-}
-.content.home .home-section .fb-testimonials-container {
+
+
+
+.content .page-section .fb-testimonials-container {
   background: #cfd8dc;
   border-radius: 7px;
   padding: 10px 20px;
   font-family: Lato;
 }
-.content.home .home-section .fb-testimonials-container .card-panel {
+.content .page-section .fb-testimonials-container .card-panel {
   display: flex;
   flex-direction: row;
 }
-.content.home .home-section .fb-testimonials-container i {
+.content .page-section .fb-testimonials-container i {
   color: white;
   font-size: 50;
 }
-.content.home .home-section .testimonial-content {
+.content .page-section .testimonial-content {
   text-align: left;
   margin: 0 30px;
 }
-.content.home .home-section .testimonial-signature {
+.content .page-section .testimonial-signature {
   text-align: right;
   margin-top: 10px;
   font-style: italic;
